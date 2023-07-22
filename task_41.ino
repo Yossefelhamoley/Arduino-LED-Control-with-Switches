@@ -15,8 +15,8 @@ void setup()
 void loop()
 {
   if(digitalRead(switchPin2)==1){
-    analogWrite(3,128);
-    analogWrite(5,128);
+    analogWrite(3,256);
+    analogWrite(5,256);
     delay(250);}
      else{
        analogWrite(3,0);
